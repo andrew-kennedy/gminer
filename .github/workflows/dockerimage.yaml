@@ -13,7 +13,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-            images: ghcr.io/dockminer/gminer
+            images: ghcr.io/andrew-kennedy/gminer
             tag-sha: true
             tag-match: v(.*)
             tag-match-group: 1
