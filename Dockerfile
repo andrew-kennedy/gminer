@@ -2,8 +2,8 @@ FROM ubuntu:20.04 AS builder
 
 WORKDIR /tmp
 
-ARG GMINER_VERSION="2.75"
-ARG GMINER_FILENAME="gminer_2_75_linux64.tar.xz"
+ARG GMINER_VERSION="2.91"
+ARG GMINER_FILENAME="gminer_2_91_linux64.tar.xz"
 
 RUN mkdir gminer &&\
     apt update && apt install tar wget xz-utils -y
@@ -12,7 +12,7 @@ RUN wget https://github.com/develsoftware/GMinerRelease/releases/download/${GMIN
     tar xf ${GMINER_FILENAME} -C gminer
 
 
-FROM nvidia/cuda:11.3.1-base-ubuntu20.04
+FROM nvidia/cuda:11.6.1-base-ubuntu20.04
 
 LABEL maintainer="Dockminer"
 
