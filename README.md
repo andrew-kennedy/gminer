@@ -1,8 +1,8 @@
 # GMiner
 
-[![Docker Image CD](https://github.com/dockminer/gminer/actions/workflows/dockerimage-cd.yaml/badge.svg)](https://github.com/dockminer/gminer/actions/workflows/dockerimage-cd.yaml)
-[![Docker Pulls](https://img.shields.io/docker/pulls/dockminer/gminer?color=orange)](https://hub.docker.com/r/dockminer/gminer)
-[![GitHub](https://img.shields.io/github/license/dockminer/gminer?color=blue)](LICENSE.md)
+[![Docker Image CD](https://github.com/andrew-kennedy/gminer/actions/workflows/dockerimage-cd.yaml/badge.svg)](https://github.com/andrew-kennedy/gminer/actions/workflows/dockerimage-cd.yaml)
+[![Docker Pulls](https://img.shields.io/docker/pulls/andrew-kennedy/gminer?color=orange)](https://hub.docker.com/r/andrew-kennedy/gminer)
+[![GitHub](https://img.shields.io/github/license/andrew-kennedy/gminer?color=blue)](LICENSE.md)
 
 GMiner was created by a Russian group of specialists in the field of high performance computing and cryptography.
 
@@ -32,5 +32,5 @@ In default, the docker expose the 8080 port for GMiner monitoring page, you can 
 
 This image is built on top of the following softwares:
 
-- [Nvidia CUDA Container](https://gitlab.com/nvidia/container-images/cuda) v11.3.1
-- [GMiner](https://github.com/develsoftware/GMinerRelease) v2.75
+- [Nvidia CUDA Container](https://gitlab.com/nvidia/container-images/cuda) v11.6.1
+- [GMiner](https://github.com/develsoftware/GMinerRelease) v2.91
